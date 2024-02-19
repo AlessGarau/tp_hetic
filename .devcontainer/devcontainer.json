@@ -1,0 +1,19 @@
+{
+    "name": "NodeJS API",
+    "dockerComposeFile": [
+        "../docker-compose.dev.yml"
+    ],
+    "service": "vscode_api",
+    "workspaceFolder": "/home/dev",
+    "customizations": {
+        "settings": {},
+        "extensions": [
+            "pmneo.tsimporter",
+            "stringham.move-ts",
+            "rbbit.typescript-hero"
+        ]
+    },
+    "forwardPorts": [
+        5050
+    ]
+}
